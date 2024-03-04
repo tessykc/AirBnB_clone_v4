@@ -1,11 +1,31 @@
 header {
-    background: white;
+    background: #ff545f;
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+}
+.available {
+    background-color: #ff545f;
+}
+/* CSS for the api_status div */
+#api_status {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    text-align: center;
 }
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
 }
+.state-checkbox,
+    .city-checkbox {
+      position: relative;
+      left: -10px;
+    }
